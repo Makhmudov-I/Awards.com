@@ -1,0 +1,532 @@
+*{
+    margin: 0;
+}
+.banner{
+    width: 100%;
+    height: 200vh;
+    background-color: black;
+    display: flex;
+}
+.first{
+    width: 20%;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.demo{
+    width: 70%;
+    height: 25vh;
+    background-color: black;
+    border-radius: 10px;
+}
+.demo img{
+    width: 100%;
+    height: 25vh;
+    filter: grayscale(100);
+    border-radius: 10px;
+    object-fit: cover;
+}
+.demo img:hover{
+    filter: grayscale(0);
+}
+.demo2{
+    width: 70%;
+    height: 25vh;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.demo2 img{
+    width: 100%;
+    height: 25vh;
+    filter: grayscale(100);
+    border-radius: 10px;
+    object-fit: cover;
+}
+.demo2 img:hover{
+    filter: grayscale(0);
+}
+.demo3{
+    width: 70%;
+    height: 25vh;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.demo3 img{
+    width: 100%;
+    height: 25vh;
+    filter: grayscale(100);
+    object-fit: cover;
+    border-radius: 10px;
+}
+.demo3 img:hover{
+    filter: grayscale(0);
+}
+.demo4{
+    width: 70%;
+    height: 25vh;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.demo4 img{
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+    filter: grayscale(100);
+    border-radius: 10px;
+}
+.demo4 img:hover{
+    filter: grayscale(0);
+}
+.demo5{
+    width: 70%;
+    height: 50vh;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.demo5 img{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    filter: grayscale(100);
+    border-radius: 10px;
+}
+.demo5 img:hover{
+    filter: grayscale(0);
+}
+.demo6{
+    width: 70%;
+    height: 25vh;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.demo6 img{
+    width: 100%;
+    object-fit: cover;
+    height: 25vh;
+    filter: grayscale(100);
+    border-radius: 10px;
+}
+.demo6 img:hover{
+    filter: grayscale(0);
+}
+.second{
+    width: 20%;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav{
+    width: 70%;
+    height: 50vh;
+    background-color: black;
+    border-radius: 10px;
+}
+.nav img{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    filter: grayscale(100);
+    border-radius: 10px;
+}
+.nav img:hover{
+    filter: grayscale(0);
+}
+.nav2{
+    width: 70%;
+    height: 25vh;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.nav2 img{
+    width: 100%;
+    object-fit: cover;
+    height: 25vh;
+    filter: grayscale(100);
+    border-radius: 10px;
+}
+.nav2 img:hover{
+    filter: grayscale(0);
+}
+.nav3{
+    width: 70%;
+    height: 50vh;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.nav3 img{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    filter: grayscale(100);
+    border-radius: 10px;
+}
+.nav3 img:hover{
+    filter: grayscale(0);
+}
+.nav4{
+    width: 70%;
+    height: 25vh;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.nav4 img{
+    width: 100%;
+    object-fit: cover;
+    height: 25vh;
+    filter: grayscale(100);
+    border-radius: 10px;
+}
+.nav4 img:hover{
+    filter: grayscale(0);
+}
+.nav5{
+    width: 70%;
+    height: 25vh;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.nav5 img{
+    width: 100%;
+    object-fit: cover;
+    height: 25vh;
+    filter: grayscale(100);
+    border-radius: 10px;
+}
+.nav5 img:hover{
+    filter: grayscale(0);
+}
+.third{
+    width: 20%;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item{
+    width: 70%;
+    height: 25vh;
+    background-color: black;
+    border-radius: 10px;
+}
+.item img{
+    width: 100%;
+    object-fit: cover;
+    height: 25vh;
+    filter: grayscale(100);
+    border-radius: 10px;
+}
+.item img:hover{
+filter: grayscale(0);
+}
+    .item2{
+        width: 70%;
+        height: 25vh;
+        background-color: black;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    .item2 img{
+        width: 100%;
+        object-fit: cover;
+        height: 25vh;
+        filter: grayscale(100);
+        border-radius: 10px;
+    }
+    .item2 img:hover{
+        filter: grayscale(0);
+    }
+    .item3{
+        width: 70%;
+        height: 50vh;
+        background-color: black;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    .item3 img{
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+        filter: grayscale(100);
+        border-radius: 10px;
+    }
+    .item3 img:hover{
+        filter: grayscale(0);
+    }
+    .item4{
+        width: 70%;
+        height: 25vh;
+        background-color: black;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    .item4 img{
+        width: 100%;
+        object-fit: cover;
+        height: 25vh;
+        filter: grayscale(100);
+        border-radius: 10px;
+    }
+    .item4 img:hover{
+        filter: grayscale(0);
+    }
+    .item5{
+        width: 70%;
+        height: 25vh;
+        background-color: black;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    .item5 img{
+        width: 100%;
+        object-fit: cover;
+        height: 25vh;
+        filter: grayscale(100);
+        border-radius: 10px;
+    }
+    .item5 img:hover{
+        filter: grayscale(0);
+    }
+    .item6{
+        width: 70%;
+        height: 25vh;
+        background-color: black;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    .item6 img{
+        width: 100%;
+        object-fit: cover;
+        height: 25vh;
+        filter: grayscale(100);
+        border-radius: 10px;
+    }
+    .item6 img:hover{
+        filter: grayscale(0);
+    }
+    .wrapper{
+        width: 20%;
+        height: 200vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo{
+        width: 70%;
+        height: 25vh;
+        background-color: black;
+        border-radius: 10px;
+    }
+    .logo img{
+        width: 100%;
+        object-fit: cover;
+        height: 25vh;
+        filter: grayscale(100);
+        border-radius: 10px;
+    }
+    .logo img:hover{
+        filter: grayscale(0);
+    }
+    .logo2{
+        width: 70%;
+        height: 50vh;
+        background-color: black;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    .logo2 img{
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+        filter: grayscale(100);
+        border-radius: 10px;
+    }
+    .logo2 img:hover{
+        filter: grayscale(0);
+    }
+    .logo3{
+        width: 70%;
+        height: 25vh;
+        background-color: black;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    .logo3 img{
+        width: 100%;
+        object-fit: cover;
+        height: 25vh;
+        filter: grayscale(100);
+        border-radius: 10px;
+    }
+    .lofo3 img:hover{
+        filter: grayscale(0);
+    }
+    .logo4{
+        width: 70%;
+        height: 25vh;
+        background-color: black;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    .logo4 img{
+        width: 100%;
+        object-fit: cover;
+        height: 25vh;
+        filter: grayscale(100);
+        border-radius: 10px;
+    }
+    .lofo4 img:hover{
+        filter: grayscale(0);
+    }
+    .logo5{
+        width: 70%;
+        height: 50vh;
+        background-color: black;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    .logo5 img{
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+        filter: grayscale(100);
+        border-radius: 10px;
+    }
+    .logo5 img:hover{
+        filter: grayscale(0);
+    }
+    .collection{
+        width: 20%;
+        height: 200vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .now{
+        width: 70%;
+        height: 25vh;
+        background-color: black;
+        border-radius: 10px;
+    }
+    .now img{
+        width: 100%;
+        object-fit: cover;
+        height: 25vh;
+        filter: grayscale(100);
+        border-radius: 10px;
+    }
+    .now img:hover{
+        filter: grayscale(0);
+    }
+    .now2{
+        width: 70%;
+        height: 25vh;
+        background-color: black;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    .now2 img{
+        width: 100%;
+        object-fit: cover;
+        height: 25vh;
+        filter: grayscale(100);
+        border-radius: 10px;
+    }
+    .now2 img:hover{
+        filter: grayscale(0);
+    }
+    .now3{
+        width: 70%;
+        height: 25vh;
+        background-color: black;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    .now3 img{
+        width: 100%;
+        object-fit: cover;
+        height: 25vh;
+        filter: grayscale(100);
+        border-radius: 10px;
+    }
+    .now3 img:hover{
+        filter: grayscale(0);
+    }
+    .now4{
+        width: 70%;
+        height: 25vh;
+        background-color: black;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    .now4 img{
+        width: 100%;
+        object-fit: cover;
+        height: 25vh;
+        filter: grayscale(100);
+        border-radius: 10px;
+    }
+    .now4 img:hover{
+        filter: grayscale(0);
+    }
+    .now5{
+        width: 70%;
+        height: 25vh;
+        background-color: black;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    .now5 img{
+        width: 100%;
+        object-fit: cover;
+        height: 25vh;
+        filter: grayscale(100);
+        border-radius: 10px;
+    }
+    .now5 img:hover{
+        filter: grayscale(0);
+    }
+    .now6{
+        width: 70%;
+        height: 25vh;
+        background-color: black;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    .now6 img{
+        width: 100%;
+        object-fit: cover;
+        height: 25vh;
+        filter: grayscale(100);
+        border-radius: 10px;
+    }
+    .now6 img:hover{
+        filter: grayscale(0);
+    }
+    .now7{
+        width: 70%;
+        height: 25vh;
+        background-color: black;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    .now7 img{
+        width: 100%;
+        object-fit: cover;
+        height: 25vh;
+        filter: grayscale(100);
+        border-radius: 10px;
+    }
+    .now7 img:hover{
+        filter: grayscale(0);
+    }
